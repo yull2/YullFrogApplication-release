@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">우물밖개구리</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_like">찜</string>
+    <string name="action_share">공유하기</string>
+    <string name="action_info">대외활동 정보</string>
+    <string name="action_save">저장하기</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="facebook_app_id">1714582038782629</string>
+
+
+    <string name="font_name_nanumgothic">nanumgothic</string>
+    <string name="font_name_light">light</string>
+    <string name="font_name_regular">regular</string>
+
+
+    <string name="title_activity_main_inter">MainInterActivity</string>
+    <string name="title_activity_inter_main">InterMainActivity</string>
+    <string name="title_activity_write_do">활동 후기 작성</string>
+    <string name="title_activity_write_test">면접 후기 작성</string>
+    <string name="title_activity_my_history">활동 내역</string>
+    <string name="title_activity_do_review_detail">DoReviewDetailActivity</string>
+    <string name="title_activity_test_review_detail">TestReviewDetailActivity</string>
+    <string name="title_activity_account">계정</string>
+    <string name="title_activity_setting">환경설정</string>
+    <string name="title_activity_actclass_change">관심 대외활동</string>
+    <string name="title_activity_indus_change">관심 산업군</string>
+    <string name="title_activity_agreement">회원가입</string>
+    <string name="title_activity_student_confirm">회원가입</string>
+
+    <string name="login_question">아직 회원이 아니세요?</string>
+
+    <string name="signup_email">이메일 주소</string>
+    <string name="signup_pwd">비밀번호 (8자리 이상)</string>
+    <string name="signup_pwd_check">비밀번호 확인</string>
+
+    <string name="do_term">활동 시기</string>
+    <string name="do_rate">활동 총 평점</string>
+    <string name="comment_title">활동 한 줄 평</string>
+    <string name="comment_good_title">도움이된 점</string>
+    <string name="comment_bad_title">아쉬운 점</string>
+    <string name="question_title">면접 질문</string>
+    <string name="answer_title">면접 답변</string>
+    <string name="test_way">면접 방식</string>
+    <string name="test_result">면접 결과</string>
+    <string name="test_level">면접 난이도</string>
+    <string name="main_point">메인 알림</string>
+    <string name="review_notice">
+    안심하세요!
+    사용자의 익명성은 철저히 보장됩니다.
+    우물밖 개구리는 작성자 리뷰 정보를 저장하지 않습니다</string>
+    <string name="review_upload">제출</string>
+    <string name="average_rate">평균 만족도</string>
+    <string name="dialog_actclass">활동</string>
+    <string name="dialog_indus">산업</string>
+    <string name="dialog_term">기간</string>
+    <string name="dialog_local">지역</string>
+    <string name="account_confirm">대학교 이메일 인증</string>
+    <string name="account_pwchange">비밀번호 변경</string>
+    <string name="account_dropout">회원 탈퇴</string>
+    <string name="account_actclass">관심 대외활동</string>
+    <string name="account_indus">관심 산업군</string>
+    <string name="account_logout">로그아웃</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="current_pw">현재 비밀번호</string>
+    <string name="new_password">새 비밀번호</string>
+    <string name="new_pw_check">새 비밀번호 확인</string>
+    <string name="notice_setting">알림 설정</string>
+    <string name="notice_mobile">모바일 알림</string>
+    <string name="notice_email">이메일 알림</string>
+    <string name="service_guide">서비스 이용안내</string>
+    <string name="notice">공지사항</string>
+    <string name="agreement">약관 및 정책</string>
+    <string name="guide_info">커뮤니티 가이드라인</string>
+    <string name="version_info">버전정보</string>
+    <string name="push_notice">푸시 알림</string>
+    <string name="push_category">알림 종류</string>
+    <string name="push_likeact">관심 대외활동 추천</string>
+    <string name="push_likeact_detail">설정한 관심 대외활동/산업군으로 추천</string>
+    <string name="push_likenotice">찜한 대외활동 공고</string>
+    <string name="push_likenotice_detail">모집 기간 중인 찜한 대외 활동 알림</string>
+
+    <string name="agree_essential">이용약관 동의(필수)</string>
+    <string name="agree_look">개인정보 수집 및 이용 동의</string>
+    <string name="agree_look1">필수적 개인정보 수집 및 이용 동의</string>
+    <string name="agree_look2">선택적 개인정보 수집 및 이용 동의</string>
+    <string name="agree_select">광고성 정보 수신 동의 (선택)</string>
+    <string name="agree_select_detail">동의하지 않더라도 우물밖 개구리의 서비스를 정상적으로 이용이 가능합니다.</string>
+    <string name="student_confirm">대학교 이메일 인증</string>
+    <string name="student_confirm_ok">인증확인</string>
+
+    <string name="mypage_mypoint">나의 개굴</string>
+    <string name="mypage_like">찜 대외활동</string>
+    <string name="mypage_history">활동 내역</string>
+    <string name="mypage_account">계정</string>
+    <string name="mypage_setting">환경설정</string>
+    <string name="inter_test_more">면접 후기 자세히 보기></string>
+    <string name="inter_do_more">대외 활동 후기 자세히 보기></string>
+
+    <string name="write_preview_comment">예) 국내에서 가장 큰 봉사 대외활동 답게 다양한 활동을
+    할 수 있었고, 규모 있는 행사에 여러 번 참여해서 많은 사람들을 만날 수 있었다.</string>
+    <string name="write_preview_commentgood">예) 봉사활동을 할 수 있는 종류가 다양하고
+        (아동교육, 장애인, 노인, 복지관, 사회적 기업)사전 교육의 강의가 교육적</string>
+    <string name="write_preview_commentbad">예) 학생들간 교류를 할 기회가 공식적으로 별로 없어서
+     자발적으로 모이지 않으면 친구를 사귀기가 어려웠다</string>
+    <string name="write_preview_question">예) 해당 활동을 지원한 동기와 기자단을 통해서 얻고자 하는 것이 무엇입니까?</string>
+    <string name="write_preview_answer">예) 올바른 정보를 제공하는 일에 대한 동경이 있어 지원을 하게 되었고,
+    해당 기자단을 통하여 실제 활동을 겪어 실무 경험을 해보고 싶어 지원</string>
+    <string name="write_preview_way">예) 그룹/pt/영어/케이스/토론/개인 (중복 가능)</string>
+
+</resources>

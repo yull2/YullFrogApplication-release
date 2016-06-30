@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mypage.MainMypageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="328dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/colorWhite">
+            <TextView
+                android:layout_width="328dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:textSize="27dp"
+                android:textColor="@color/colorToolbarbg"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/text_point" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="14dp"
+                android:textSize="14dp"
+                android:textColor="@color/colorBasicTextBlack"
+                android:text="@string/mypage_mypoint"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="448dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="16dp"
+                android:textSize="14dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorBasicTextBlack"
+                android:text="@string/mypage_like"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingStart="5dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/rv_list">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:gravity="start"
+            android:paddingTop="17dp"
+            android:paddingStart="13dp"
+            android:text="@string/mypage_history"
+            android:background="@drawable/individual_bg_bar"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_history" />
+
+        <Button
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:gravity="start"
+            android:paddingTop="17dp"
+            android:paddingStart="13dp"
+            android:text="@string/mypage_account"
+            android:background="@drawable/individual_bg_bar"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_account" />
+
+        <Button
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:gravity="start"
+            android:paddingTop="17dp"
+            android:paddingStart="13dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/mypage_setting"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/individual_bg_bar"
+            android:id="@+id/btn_setting" />
+
+    </LinearLayout>
+</ScrollView>

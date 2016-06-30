@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.frogoutofwell.yullfrogapplication.write.WriteDoActivity"
+    tools:showIn="@layout/activity_write_do">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center_vertical"
+            android:text="활동후기작성"
+            android:textSize="13dp"
+            android:textColor="@color/colorBasicTextBlack"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:background="@color/colorBackInfo"
+            android:id="@+id/text_info" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center_vertical"
+            android:textSize="13dp"
+            android:textColor="@color/colorBasicTextGray"
+            android:text="@string/review_notice"
+            android:id="@+id/textView12"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:background="@color/colorBackNotice"
+            android:layout_below="@+id/text_info"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/do_term"
+            android:textColor="@color/colorBasicTextGray"
+            android:textSize="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="205dp"
+            android:layout_height="34dp"
+            android:id="@+id/spinner_term"
+            android:entries="@array/do_term"
+            android:background="@drawable/bar_searchbar"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="27dp"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:text="@string/do_rate"
+            android:textColor="@color/colorBasicTextGray"
+            android:textSize="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="46dp"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentStart="true" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratebar"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_below="@+id/spinner_term"
+            android:layout_alignParentEnd="true"
+            android:numStars="5"
+            style="@style/starRatingBar"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/textView21">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:text="@string/comment_title"
+            android:id="@+id/textView2"
+            android:textColor="@color/colorBasicTextGray"
+            android:textSize="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="306dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textMultiLine"
+            android:textSize="14dp"
+            android:textColorHint="@color/colorTextPriview"
+            android:textColor="@color/colorBasicTextGray"
+            android:ems="10"
+            android:hint="@string/write_preview_comment"
+            android:id="@+id/edit_comment"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_alignEnd="@+id/spinner_term" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:text="@string/comment_good_title"
+            android:textColor="@color/colorBasicTextGray"
+            android:textSize="14dp"
+            android:id="@+id/textView3"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="32dp"
+            android:layout_below="@+id/edit_comment"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="306dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textMultiLine"
+            android:textSize="14dp"
+            android:textColorHint="@color/colorTextPriview"
+            android:textColor="@color/colorBasicTextGray"
+            android:ems="10"
+            android:hint="@string/write_preview_commentgood"
+            android:id="@+id/edit_commentgood"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/edit_comment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:text="@string/comment_bad_title"
+            android:textColor="@color/colorBasicTextGray"
+            android:textSize="14dp"
+            android:id="@+id/textView4"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="32dp"
+            android:layout_below="@+id/edit_commentgood"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="306dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textMultiLine"
+            android:textSize="14dp"
+            android:textColorHint="@color/colorTextPriview"
+            android:textColor="@color/colorBasicTextGray"
+            android:ems="10"
+            android:hint="@string/write_preview_commentbad"
+            android:id="@+id/edit_commentbad"
+            android:background="@color/colorWhite"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/edit_commentgood" />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:id="@+id/btn_upload"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/ic_submit"
+            android:layout_below="@+id/edit_commentbad"
+            android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

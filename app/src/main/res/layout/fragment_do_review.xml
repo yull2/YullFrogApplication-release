@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.frogoutofwell.yullfrogapplication.doreview.DoReviewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="18dp"
+            android:text="총"
+            android:textSize="13dp"
+            android:textColor="@color/colorBasicTextBlack" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:id="@+id/text_count"
+            android:layout_marginStart="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/colorNumberPoint"
+            android:text="1" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/colorBasicTextBlack"
+            android:text="개의 후기"/>
+    </LinearLayout>
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="활동후기작성"
+        android:id="@+id/btn_go"
+        android:layout_gravity="right|bottom" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_list"
+        android:layout_gravity="left|center_vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

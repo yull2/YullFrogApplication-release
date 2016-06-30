@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1038569812724",
+    "project_id": "yullfrogapplication"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038569812724:android:e39536fb0027837a",
+        "android_client_info": {
+          "package_name": "com.frogoutofwell.yullfrogapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQem896gLrJOsj9VLAFrLydDLGIyUYWBU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

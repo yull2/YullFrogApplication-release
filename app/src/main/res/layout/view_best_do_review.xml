@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="328dp"
+    android:layout_height="334dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="11dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_logo"
+            android:background="@color/colorSingleLine"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="17dp"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="Medium Text"
+            android:id="@+id/text_name"
+            android:textSize="16dp"
+            android:textColor="@color/colorTextTitle"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/img_logo" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:gravity="end"
+            android:background="@drawable/main_starbox"
+            android:text="3"
+            android:textSize="12dp"
+            android:id="@+id/text_rate"
+            android:paddingEnd="7dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@+id/text_name"
+            android:layout_toEndOf="@+id/img_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Small Text"
+            android:id="@+id/text_info"
+            android:textColor="@color/colorBasicTextGray"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:paddingStart="15dp"
+            android:layout_alignTop="@+id/text_rate"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/line"
+            android:background="@color/colorSingleLine"
+            android:layout_below="@+id/text_rate"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="47dp"
+            android:text="Large Text"
+            android:id="@+id/text_comment"
+            android:textSize="16dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/colorBasicTextBlack"
+            android:layout_below="@+id/line"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:text="@string/comment_good_title"
+            android:id="@+id/textView50"
+            android:textColor="@color/colorTextGood"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="12dp"
+            android:textSize="13dp"
+            android:layout_below="@+id/text_comment"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="46dp"
+            android:text="Medium Text"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/colorBasicTextGray"
+            android:id="@+id/text_commendgood"
+            android:layout_below="@+id/textView50"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:text="@string/comment_bad_title"
+            android:textSize="13dp"
+            android:textColor="@color/colorTextBad"
+            android:id="@+id/textView52"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="12dp"
+            android:layout_below="@+id/text_commendgood"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="294dp"
+            android:layout_height="46dp"
+            android:text="Medium Text"
+            android:id="@+id/text_commentbad"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/colorBasicTextGray"
+            android:layout_below="@+id/textView52"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:text="@string/inter_do_more"
+            android:textSize="12dp"
+            android:textColor="@color/colorMoreDetail"
+            android:id="@+id/btn_detail"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="17dp"
+            android:background="@null"
+            android:layout_below="@+id/text_commentbad"
+            android:layout_alignEnd="@+id/text_commentbad" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inter.MainInterFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="48dp"
+            android:text="@string/dialog_actclass"
+            android:id="@+id/btn_actclass"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="48dp"
+            android:text="@string/dialog_indus"
+            android:id="@+id/btn_indus"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btn_actclass" />
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="48dp"
+            android:text="@string/dialog_term"
+            android:id="@+id/btn_term"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/btn_indus" />
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="48dp"
+            android:text="@string/dialog_local"
+            android:id="@+id/btn_local"
+            android:background="@null"
+            android:layout_alignBottom="@+id/btn_term"
+            android:layout_toEndOf="@+id/btn_term" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_more"
+            android:text=""
+            android:id="@+id/btn_sort" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSingleLine"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/line1"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/rv_list"
+        android:layout_below="@+id/line1"/>
+
+
+</RelativeLayout>

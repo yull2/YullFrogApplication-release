@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSingleLine">#d2d2d2</color>
+    <color name="colorBackInfo">#e1f5fe</color>
+    <color name="colorBackNotice">#dcdcdc</color>
+    <color name="colorMainTabs">#434343</color>
+    <color name="colorTabSelected">#68d2ff</color>
+    <color name="colorTabUnSelected">#ffffff</color>
+    <color name="colorToolbarbg">#0090e9</color>
+    <color name="colorStatusbarbg">#4374D9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorFloatingBg">#0090e9</color>
+    <color name="colorDoRatebar">#c9c9c9</color>
+    <color name="colorTextGood">#283593</color>
+    <color name="colorTextBad">#ff5722</color>
+    <color name="colorTextBluebox">#0090e9</color>
+    <color name="colorTextTitle">#252525</color>
+    <color name="colorMoreDetail">#0091e1</color>
+    <color name="colorActClass">#ff5722</color>
+    <color name="colorBasicTextBlack">#252525</color>
+    <color name="colorBasicTextGray">#707070</color>
+    <color name="colorTextPriview">#d2d2d2</color>
+    <color name="colorNumberPoint">#ff7e19</color>
+    <color name="colorSettingText">#959595</color>
+    <color name="colorSignupNotice">#c2c2c2</color>
+    <color name="colorIndusSelected">#454545</color>
+    <color name="colorActclassSelected">#0090e9</color>
+    <color name="colorHistoryRate">#ff5722</color>
+
+
+</resources>

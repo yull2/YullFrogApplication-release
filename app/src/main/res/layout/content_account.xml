@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.frogoutofwell.yullfrogapplication.account.AccountActivity"
+    tools:showIn="@layout/activity_account">
+
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:text="email"
+        android:textColor="@color/colorBasicTextGray"
+        android:layout_marginTop="48dp"
+        android:background="@color/colorWhite"
+        android:id="@+id/btn_email" />
+
+    <CheckBox
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:layout_below="@+id/btn_email"
+        android:text="@string/account_confirm"
+        android:clickable="false"
+        android:button="@null"
+        android:background="@drawable/agreement_check_selector"
+        android:id="@+id/btn_confirm" />
+
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:text="@string/account_pwchange"
+        android:background="@drawable/individual_bg_bar"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/btn_confirm"
+        android:id="@+id/btn_pwchange" />
+
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:layout_below="@id/btn_pwchange"
+        android:background="@color/colorWhite"
+        android:text="@string/account_dropout"
+        android:id="@+id/btn_memberout" />
+
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:text="@string/account_actclass"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/btn_memberout"
+        android:background="@drawable/individual_bg_bar"
+        android:id="@+id/btn_actclass" />
+
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:text="@string/account_indus"
+        android:layout_below="@id/btn_actclass"
+        android:background="@drawable/individual_bg_bar"
+        android:id="@+id/btn_indus" />
+
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:paddingStart="13dp"
+        android:text="@string/account_logout"
+        android:background="@color/colorWhite"
+        android:layout_below="@id/btn_indus"
+        android:id="@+id/btn_logout" />
+
+</RelativeLayout>

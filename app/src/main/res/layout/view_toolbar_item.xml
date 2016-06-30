@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <AutoCompleteTextView
+            android:layout_width="210dp"
+            android:layout_height="48dp"
+            android:id="@+id/auto_search"
+            android:singleLine="true"
+            android:ems="10"
+            android:text=""
+            android:popupBackground="@color/colorWhite"
+            android:paddingStart="5dp"
+            android:hint="활동명을 입력하세요"
+            android:completionThreshold="2">
+            <!--<requestFocus/>-->
+        </AutoCompleteTextView>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="26dp"
+            android:layout_height="25dp"
+            android:text=" "
+            android:id="@+id/btn_search"
+            android:background="@drawable/main_searchbt"/>
+
+    </LinearLayout>
+
+    <!--    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_search"
+            android:layout_gravity="center_horizontal"
+            android:lines="1"
+            android:layout_weight="1.09" />-->
+</LinearLayout>
